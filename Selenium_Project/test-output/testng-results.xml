@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-26T14:59:39 IST" name="Suite" finished-at="2024-06-26T14:59:45 IST" duration-ms="6405">
+    <groups>
+      <group name="regressionTest">
+        <method signature="AlertPopUp.m1()[pri:0, instance:demo.AlertPopUp@e350b40]" name="m1" class="demo.AlertPopUp"/>
+      </group> <!-- regressionTest -->
+      <group name="smokeTest">
+        <method signature="AbsoluteXpathEx.AbsoluteXpathEx()[pri:0, instance:demo.AbsoluteXpathEx@d86a6f]" name="AbsoluteXpathEx" class="demo.AbsoluteXpathEx"/>
+      </group> <!-- smokeTest -->
+    </groups>
+    <test started-at="2024-06-26T14:59:39 IST" name="Test" finished-at="2024-06-26T14:59:45 IST" duration-ms="6405">
+      <class name="demo.AbsoluteXpathEx">
+        <test-method signature="AbsoluteXpathEx()[pri:0, instance:demo.AbsoluteXpathEx@d86a6f]" started-at="2024-06-26T14:59:44 IST" name="AbsoluteXpathEx" finished-at="2024-06-26T14:59:45 IST" duration-ms="1400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AbsoluteXpathEx -->
+      </class> <!-- demo.AbsoluteXpathEx -->
+      <class name="demo.AlertPopUp">
+        <test-method signature="m1()[pri:0, instance:demo.AlertPopUp@e350b40]" started-at="2024-06-26T14:59:39 IST" name="m1" finished-at="2024-06-26T14:59:44 IST" duration-ms="4943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+      </class> <!-- demo.AlertPopUp -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
